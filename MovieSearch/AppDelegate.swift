@@ -1,10 +1,6 @@
 //
 //  AppDelegate.swift
 //  MovieSearch
-//
-//  Created by jiaxing liu on 6/25/20.
-//  Copyright © 2020 jiaxing liu. All rights reserved.
-//
 
 import UIKit
 
@@ -14,6 +10,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
+        UserDefaults.standard.synchronize()
         // Override point for customization after application launch.
         return true
     }

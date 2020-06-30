@@ -1,10 +1,7 @@
 //
 //  SceneDelegate.swift
 //  MovieSearch
-//
-//  Created by jiaxing liu on 6/25/20.
-//  Copyright © 2020 jiaxing liu. All rights reserved.
-//
+
 
 import UIKit
 
